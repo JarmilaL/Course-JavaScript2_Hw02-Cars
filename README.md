@@ -20,7 +20,7 @@ Task
 MAIN ASSIGNEMENT:
 Insert all cars from array 'auta' in HTML tag with id="seznam".
 Use innerHTML and document.createElement().
-Do not add all cars by one but prepare the whole list in a variable and add it in HTML as a whole.
+Do not add cars by one but prepare the whole list of cars in a variable and add it in HTML as a whole.
 
 BONUS:
 Add a text field in the UI which can be used for searching through the list of cars. User should be able to search by car make or/and car model.
