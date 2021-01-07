@@ -1,5 +1,5 @@
 # Course-JavaScript2_Hw02-Cars
-Second homework for JavaScript 2 course by Czechitas (autumn 2020) 
+Second homework for JavaScript 2 course by Czechitas (autumn 2020).
 Beyond the original assignment I added sorting (by make, model, year, color or mileage)
 
 Zadání
