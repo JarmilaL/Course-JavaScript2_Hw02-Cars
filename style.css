@@ -1,0 +1,74 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+    background-color: #e5e5e5;
+    font: 16px/24px sans-serif;
+}
+
+.wrap {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center
+}
+
+.search {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search input {
+    flex: 1 0 50px;
+    height: 40px;
+    padding-left: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#make {
+    margin-right: 5px;
+}
+
+
+
+.auto,
+.header {
+    display: grid;
+    grid-template-columns: 150px 150px 60px 120px 120px;
+    width: 600px;
+    /*padding: 10px 15px;*/
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    background-color: lightgray;
+}
+
+.header-part:hover,
+.header-part:focus,
+.header-part:active {
+    background-color: white;
+}
+
+.vyrobce,
+.model {
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.rok,
+.barva {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.najeto {
+    text-align: right;
+    padding: 10px 15px;
+}

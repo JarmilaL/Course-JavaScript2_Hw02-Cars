@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vypisování dat do HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrap">
+        <h1>Seznam aut</h1>
+
+        <div class="search">
+            <input id="make" name="make" type="text" placeholder="Zadej značku" autocomplete="off">
+            <input id="model" name="model" type="text" placeholder="Zadej model" autocomplete="off">
+        </div>
+
+
+
+        <div class="header">
+            <div id="header-make" class="header-part vyrobce">Značka</div>
+            <div id="header-model" class="header-part model">Model</div>
+            <div id="header-year" class="header-part rok">Rok</div>
+            <div id="header-color" class="header-part barva">Barva</div>
+            <div id="header-mileage" class="header-part najeto">Najeto (km)</div>
+        </div>
+
+
+        <div id="seznam">
+            <!--<div class="auto">
+                <div class="vyrobce">Značka</div>
+                <div class="model">Model</div>
+                <div class="rok">Rok výroby</div>
+                <div class="barva">Barva</div>
+                <div class="najeto">Najeto (km)</div>
+            </div>-->
+        </div>
+    </div>
+
+
+
+    <script src="script1.js"></script>
+</body>
+</html>
